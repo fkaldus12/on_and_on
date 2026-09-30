@@ -1,0 +1,243 @@
+#header {
+    width: 100%;
+    height: 112px;
+    /* background-color: yellow; */
+    border-bottom: 1px solid #999;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+#contents {
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+#footer {
+    width: 100%;
+    height: 90px;
+    background-color: #c9f3fd;
+    margin-top: 50px;
+}
+.container {
+    width: 970px;
+    /* background: #6a99a5; */
+    margin: 0 auto;
+}
+
+/* header */
+.gnb {
+    text-align: right;
+    margin-bottom: 15px;
+}
+.gnb a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 2px;
+    line-height: 10px;
+}
+.gnb a:nth-child(1) {
+    position: relative;
+    top: -4px;
+    border-right: 1px solid #666;
+    line-height: 1;
+    padding-right: 4px;
+}
+.gnb a:nth-child(2) {
+    position: relative;
+    top: -4px;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+#nav #logo {
+    margin-top: 10px;
+}
+#nav ul.lnb {
+    display: flex;
+}
+#nav ul.lnb li {
+}
+#nav ul.lnb li a {
+    display: block;
+    font-family: "Jost", sans-serif;
+    padding: 7px;
+    font-size: 15px;
+}
+
+#nav ul.lnb li:nth-child(7) a {
+    color: #b90808;
+}
+#nav ul.lnb li:last-child a {
+    color: rgb(255, 18, 156);
+    padding-right: 0;
+}
+#nav ul.lnb li a:hover {
+    color: aqua;
+}
+
+/* main */
+.contents01 {
+    width: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.con01_left {
+    width: 480px;
+    height: 578px;
+    /* background-color: #b90808; */
+}
+.con01_right {
+    width: 480px;
+    height: 578px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.con01_right_box01 {
+    width: 235px;
+    height: 186px;
+    /* background-color: blue; */
+}
+.con01_right_box02 {
+    width: 235px;
+    height: 186px;
+    /* background-color: blue; */
+}
+.con01_right_box03 {
+    width: 480px;
+    height: 186px;
+    /* background-color: blue; */
+}
+.con01_right_box04 {
+    width: 480px;
+    height: 186px;
+    /* background-color: blue; */
+}
+
+.contents02 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.con02_box01 {
+    width: 480px;
+    height: 188px;
+    /* background-color: azure; */
+}
+.con02_box02 {
+    width: 235px;
+    height: 188px;
+    /* background-color: azure; */
+}
+.con02_box03 {
+    width: 235px;
+    height: 188px;
+    /* background-color: azure; */
+}
+.contents03 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.con03_left {
+    width: 480px;
+    height: 578px;
+    /* background-color: #bb0fbb; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.con03_left_box01 {
+    width: 235px;
+    height: 382px;
+    /* background-color: #6a99a5; */
+}
+.con03_left_box01 .small_box01 {
+    width: 235px;
+    height: 186px;
+    /* background-color: blue; */
+    margin-bottom: 10px;
+}
+.con03_left_box01 .small_box02 {
+    width: 235px;
+    height: 186px;
+    /* background-color: rgb(63, 63, 184); */
+}
+.con03_left_box02 {
+    width: 235px;
+    height: 382px;
+    /* background-color: #ec5d5d; */
+}
+.con03_left_box03 {
+    width: 480px;
+    height: 186px;
+    /* background-color: #fff; */
+}
+
+/* footer */
+#footer > .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.footer_menu {
+    display: flex;
+}
+ul.footer_menu li {
+}
+ul.footer_menu li a {
+    display: block;
+    font-size: 13px;
+    border-right: 1px solid #666;
+    padding: 0 10px;
+    line-height: 1;
+}
+ul.footer_menu li:last-child a {
+    border-right: 0;
+}
+ul.footer_menu li a:hover {
+    color: aqua;
+}
+
+ul.copyright {
+    display: flex;
+}
+ul.copyright li {
+    font-size: 13px;
+    border-right: 1px solid #666;
+    line-height: 1;
+    padding: 0 10px;
+}
+ul.copyright li:last-child {
+    border-right: 0;
+}
+
+.select {
+}
+.select select {
+    width: 150px;
+    height: 30px;
+    padding: 0 10px;
+    border: 0;
+}
+.select select option {
+}
+
+/* web standard */
+.wed_standard {
+    width: 970px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.wed_standard p {
+    padding: 0 10px;
+}
